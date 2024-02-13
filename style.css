@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Bolbol;
+    src: url(./fonts/NanumPenScript-Regular.ttf);
+}
+@font-face {
+    font-family: nabil;
+    src: url(./fonts/Khand-SemiBold.ttf);
+}
+
+body {
+    background-color: #004225;
+    font-family: nabil,Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    }
+.header {
+        color: #F5F5DC;
+        }  
+.header h1 {
+        font-family: Bolbol,Arial, Helvetica, sans-serif;
+    }
+.header ul{
+    list-style-type: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #F5F5DC;
+    scroll-behavior: smooth;
+}
+.header ul li a:hover{
+    color: #FFB000;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 2.5rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #12372A;
+    background-size: 400%;
+    color: #F5F5DC;
+    border: none;
+    cursor: pointer;
+    font-family: nabil,Arial, Helvetica, sans-serif;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: #FFB000;
+    transition: all 0.475s;
+  }
+  .home{
+    background-color: #004225;
+  }
+  .home-content{
+    color: #F5F5DC;
+  }
+  .home img{
+    box-shadow: 0px 0px 5px #000000;
+  }
+  .about-me{
+    background-color: #F5F5DC;
+  }
+  .home-content h1 ,.about-me-content h1,.education h1, .my-projects-content h1{
+    font-family: Bolbol,Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+  }
+  .about-me-content h1,.education h1{
+    color: #004225
+  }
+  .about-me-content p, .about-me-content ul li{
+    color: #004225
+  }
+  .my-projects-content{
+    color: #F5F5DC;
+  }
+ .carousel slide{
+  height: auto;
+ }
+ .carousel-inner{
+  border-radius: 20px;
+ }
+ .title{
+  color: #F5F5DC;
+ }
+.contact-me{
+  background-color: #F5F5DC;
+}
+.contact-me-content{
+    color: #004225;
+}
+  .contact-me-content a{
+    color: #004225;
+    text-decoration: none;
+  }
+  .contact-me-content a :hover{
+    color: #FFB000;
+  }
+  .top{
+    position: fixed;
+    width: 20%;
+    bottom:100px;
+    left:1580px;
+  }
+  #sticky-arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFB000;
+    color: #F5F5DC;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    display: none;
+    border-radius: 15px;
+}
+#sticky-arrow:hover {
+    background-color: #004225;
+}
+
