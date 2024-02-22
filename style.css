@@ -90,15 +90,15 @@ body {
   .my-projects-content{
     color: #F5F5DC;
   }
- .carousel slide{
+.carousel slide{
   height: auto;
- }
- .carousel-inner{
+}
+.carousel-inner{
   border-radius: 20px;
- }
- .title{
+}
+.title{
   color: #F5F5DC;
- }
+}
 .contact-me{
   background-color: #F5F5DC;
 }
