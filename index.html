@@ -78,7 +78,6 @@
         </div>
       </div>
     </section>
-    <div id="sticky-arrow">Back To Top</div>
     <section class="my-projects container-fluid" id="projects">
       <div class="row p-0 m-0 mb-3"> 
         <div class="my-projects-content text-center">
@@ -178,6 +177,7 @@
         </div>
       </div>
     </section>
+    <div id="sticky-arrow">Back To Top</div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -186,7 +186,7 @@
 <script>
     var arrow = document.getElementById('sticky-arrow');
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 300) {
+        if (window.scrollY > 200) {
             arrow.style.display = 'block';
         } else {
             arrow.style.display = 'none';
